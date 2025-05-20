@@ -1,0 +1,15 @@
+{
+    "name": "ander/module-weatherdiscount",
+    "description": "Discount products by weather",
+    "type": "magento2-module",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ander\\WeatherDiscount\\": ""
+        }
+    }
+}
